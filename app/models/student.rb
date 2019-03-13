@@ -1,5 +1,5 @@
 class Student < ActiveRecord::Base 
-  def student (first_name, last_name)
-    @student.to_s = student.first_name + last_name
+  def student 
+    @student.to_s = student.first_name + student.last_name
   end
 end
